@@ -29,14 +29,30 @@ Claude reads only the reference files relevant to the current task, keeping toke
 
 ## Installation
 
-### Option A — Install the `.skill` bundle (recommended)
+### Option A — Claude Code Plugin (recommended)
+
+From within Claude Code, first add the marketplace:
+
+```
+/plugin marketplace add josephinoo/clojure-idiomatic
+```
+
+Then install the plugin:
+
+```
+/plugin install clojure-idiomatic@clojure-idiomatic
+```
+
+This makes the skill available across all your projects.
+
+### Option B — Install the `.skill` bundle
 
 ```bash
-# In your project directory
+# Download and install in your project directory
 claude skill install clojure-idiomatic.skill
 ```
 
-### Option B — Copy files manually
+### Option C — Copy files manually
 
 1. Copy `SKILL.md` and the `references/` folder into your project's `.claude/skills/clojure-idiomatic/` directory.
 2. Claude Code will pick them up automatically.
