@@ -1,0 +1,11 @@
+{
+  "name": "clojure-idiomatic",
+  "description": "Write, review, and refactor idiomatic Clojure — data-first, immutable by default, built from small pure functions, and developed live at the REPL",
+  "version": "1.0.0",
+  "author": {
+    "name": "josephinoo"
+  },
+  "license": "MIT",
+  "keywords": ["clojure", "clojurescript", "functional", "idiomatic", "repl"],
+  "skills": ["./"]
+}

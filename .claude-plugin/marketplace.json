@@ -1,0 +1,30 @@
+{
+  "name": "clojure-idiomatic",
+  "id": "clojure-idiomatic",
+  "owner": {
+    "name": "josephinoo"
+  },
+  "metadata": {
+    "description": "Write, review, and refactor idiomatic Clojure — data-first, immutable by default, built from small pure functions, and developed live at the REPL",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "clojure-idiomatic",
+      "source": "./",
+      "description": "Idiomatic Clojure skill: threading macros, persistent data structures, REPL-driven development, core.async, transducers, multimethods, and protocols",
+      "version": "1.0.0",
+      "author": {
+        "name": "josephinoo"
+      },
+      "keywords": [
+        "clojure",
+        "clojurescript",
+        "functional",
+        "idiomatic",
+        "repl"
+      ],
+      "category": "languages"
+    }
+  ]
+}
